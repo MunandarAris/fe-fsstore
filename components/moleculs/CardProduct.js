@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { FormatRupiah } from "@arismun/format-rupiah";
-import Button from "../atoms/ButtonFixed";
+import Button from "components/atoms/ButtonFixed";
 
 export default function CardProduct({ imgProduct, name, price, stock }) {
   return (

@@ -1,4 +1,4 @@
-import Button from "../../atoms/Button";
+import Button from "components/atoms/Button";
 import { useState } from "react";
 
 export default function Banner() {

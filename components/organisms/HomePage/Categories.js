@@ -1,4 +1,4 @@
-import CardCategori from "pages/components/moleculs/CardCategori";
+import CardCategori from "components/moleculs/CardCategori";
 
 const categories = [
   {

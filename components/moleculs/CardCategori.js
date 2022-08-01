@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Button from "../atoms/Button";
+import Button from "components/atoms/Button";
 
 export default function CardCategori({ name, img }) {
   return (

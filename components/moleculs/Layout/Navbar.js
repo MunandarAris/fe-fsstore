@@ -1,14 +1,14 @@
 import Link from "next/link";
-import Button from "pages/components/atoms/Button";
+import Button from "components/atoms/Button";
 
 const menuLink = [
   {
     name: "Home",
-    path: "#",
+    path: "/",
   },
   {
     name: "Tentang Kami",
-    path: "#",
+    path: "/about-us",
   },
   {
     name: "Produk",

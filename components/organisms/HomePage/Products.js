@@ -1,5 +1,5 @@
-import CardProduct from "pages/components/moleculs/CardProduct";
-import Button from "pages/components/atoms/ButtonFixed";
+import CardProduct from "components/moleculs/CardProduct";
+import Button from "components/atoms/ButtonFixed";
 
 // constant
 const products = [
