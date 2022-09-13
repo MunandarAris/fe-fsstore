@@ -10,14 +10,6 @@ const menuLink = [
     name: "Tentang Kami",
     path: "/about-us",
   },
-  {
-    name: "Produk",
-    path: "#",
-  },
-  {
-    name: "Kategori",
-    path: "#",
-  },
 ];
 
 export default function Navbar({ transparent }) {
@@ -28,7 +20,9 @@ export default function Navbar({ transparent }) {
       } px-14 flex items-center justify-between py-5 z-20 relative`}
     >
       {/* --- logo --- */}
-      <h1 className="text-white font-bold text-2xl">FSSTORE</h1>
+      <Link href="/">
+        <a className="text-white font-bold text-2xl">FSSTORE</a>
+      </Link>
 
       {/* --- menu links --- */}
       <div className="inline-flex gap-5">

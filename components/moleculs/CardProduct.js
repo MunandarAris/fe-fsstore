@@ -2,11 +2,11 @@ import Image from "next/image";
 import { FormatRupiah } from "@arismun/format-rupiah";
 import Button from "components/atoms/ButtonFixed";
 
-export default function CardProduct({ imgProduct, name, price, stock }) {
+export default function CardProduct({ imgProduct, name, price, stock, width }) {
   return (
-    <div className="bg-white rounded-lg shadow-md p-4">
+    <div className={`bg-white rounded-lg shadow-md p-4 ${width}`}>
       {/* --- header --- */}
-      <div className="h-[150px] w-full rounded-lg overflow-hidden">
+      <div className="rounded-lg overflow-hidden h-[150px]">
         <Image
           src={imgProduct}
           alt={name}
@@ -19,7 +19,7 @@ export default function CardProduct({ imgProduct, name, price, stock }) {
       {/* --- end header --- */}
 
       {/* --- body --- */}
-      <div className="flex items-center justify-between mt-5">
+      <div className="flex items-center justify-between mt-5 gap-5">
         <div>
           <h1 className="font-bold text-black text-base">{name}</h1>
           <h6 className="font-medium text-sm text-gray-500">Stok {stock}</h6>
@@ -53,3 +53,7 @@ export default function CardProduct({ imgProduct, name, price, stock }) {
     </div>
   );
 }
+
+CardProduct.defaultProps = {
+  width: "w-full",
+};

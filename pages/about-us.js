@@ -1,4 +1,4 @@
-import Layout from "components/organisms/HomePage/Layout";
+import Layout from "components/moleculs/Layout";
 import Header from "components/organisms/AboutUs/Header";
 import FAQ from "components/organisms/AboutUs/FAQ";
 import StepeBuyingProduct from "components/organisms/AboutUs/StepeBuyingProduct";

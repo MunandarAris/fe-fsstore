@@ -62,13 +62,6 @@ export default function Products() {
           />
         ))}
       </div>
-
-      <Button
-        onClick={() => {}}
-        className="mt-7 bg-secondary text-white mx-auto block font-bold text-sm px-5 py-3 rounded-md shadow-md"
-      >
-        Lihat Selengkapnya
-      </Button>
     </div>
   );
 }

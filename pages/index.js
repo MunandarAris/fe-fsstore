@@ -1,6 +1,6 @@
 import Banner from "components/organisms/HomePage/Banner";
 import Categories from "components/organisms/HomePage/Categories";
-import Layout from "components/organisms/HomePage/Layout";
+import Layout from "components/moleculs/Layout";
 import Promotion from "components/organisms/HomePage/Promotion";
 import Products from "components/organisms/HomePage/Products";
 
